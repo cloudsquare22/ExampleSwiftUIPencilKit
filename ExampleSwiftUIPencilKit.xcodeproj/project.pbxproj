@@ -272,7 +272,7 @@
 				DEVELOPMENT_TEAM = 385NJ9XLA7;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = ExampleSwiftUIPencilKit/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -280,7 +280,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = jp.cloudsquare.ios.example.ExampleSwiftUIPencilKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -294,7 +294,7 @@
 				DEVELOPMENT_TEAM = 385NJ9XLA7;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = ExampleSwiftUIPencilKit/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,7 +302,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = jp.cloudsquare.ios.example.ExampleSwiftUIPencilKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
