@@ -11,7 +11,8 @@ import SwiftUI
 struct ExampleSwiftUIPencilKitApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+//            ContentView()
+            ExampleControllerView()
         }
     }
 }
