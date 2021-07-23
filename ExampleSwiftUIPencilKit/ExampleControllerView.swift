@@ -16,6 +16,9 @@ struct ExampleControllerView: View {
                 .scaledToFit()
                 .edgesIgnoringSafeArea(.all)
             PencilKitViewControllerView()
+                .onTapGesture {
+                    print("onTapGesture")
+                }
         }
     }
 }
@@ -58,6 +61,11 @@ class PencilKitViewController: UIViewController {
             let swipeRight = UISwipeGestureRecognizer(target: self, action: #selector(self.swipeRight(sender:)))
             swipeRight.direction = .right
             view.addGestureRecognizer(swipeRight)
+            
+            let tap = UITapGestureRecognizer(target: self, action: #selector(self.tap(sender:)))
+            tap.numberOfTapsRequired = 1
+            view.addGestureRecognizer(tap)
+
         }
     }
 
@@ -67,5 +75,9 @@ class PencilKitViewController: UIViewController {
 
     @objc func swipeRight(sender: UISwipeGestureRecognizer) {
         print("Swipe right.")
+    }
+
+    @objc func tap(sender: UISwipeGestureRecognizer) {
+        print("tap.")
     }
 }
